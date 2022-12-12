@@ -1,0 +1,21 @@
+datasource: 2022.12.08
+description: ExAC pLI
+developer:
+  organization: ENC
+input_format: crx
+level: variant
+output_columns:
+- name: pli
+  title: pLI
+  type: float
+  width: 55
+  hidden: false
+release_note:
+  2022.12.08: v0.1
+tags:
+- variants
+- pli
+title: ExACpLI
+type: annotator
+version: 2022.11.14
+requires_opencravat: '>=1.4.0'
